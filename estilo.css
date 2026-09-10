@@ -1,0 +1,141 @@
+/* CONFIGURACIÓN GENERAL */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.encabezado {
+    background: linear-gradient(to right, #166534, #22c55e);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+.logo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.titulo h1 {
+    margin: 10px 0;
+}
+
+.menu {
+    background-color: #333;
+    text-align: center;
+    padding: 15px;
+}
+
+.menu a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.menu a:hover {
+    background-color: #22c55e;
+}
+
+.contenedor {
+    width: 90%;
+    margin: 20px auto;
+}
+
+iframe {
+    border: none;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.pagina {
+    width: 90%;
+    margin: 20px auto;
+}
+
+.tarjeta,
+.hobby {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px #aaa;
+}
+
+h2 {
+    color: #166534;
+    text-align: center;
+}
+
+h3 {
+    color: #15803d;
+}
+
+.foto-personal {
+    display: block;
+    width: 180px;
+    height: 180px;
+    margin: 20px auto;
+    border-radius: 50%;
+}
+
+.galeria {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.galeria img {
+    width: 300px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 2px 6px #999;
+}
+
+.imagen-ciudad {
+    display: block;
+    width: 80%;
+    max-width: 600px;
+    margin: 20px auto;
+    border-radius: 10px;
+}
+
+.boton {
+    display: inline-block;
+    background-color: #166534;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.boton:hover {
+    background-color: #22c55e;
+}
+
+.pie {
+    background: linear-gradient(to right, #166534, #22c55e);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 600px) {
+
+    .menu a {
+        display: block;
+        margin: 5px;
+    }
+
+    .galeria img {
+        width: 90%;
+    }
+
+}
